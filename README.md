@@ -1,5 +1,5 @@
 # Games-Bot
-Handler by Milrato Development,  Source code will be released when this repository reaches 20 Stars!
+Handler by Milrato Development,  Source code will be released soon!
 
 # Features 
 - Almost every single Minigame possible, like Youtube Together, etc!

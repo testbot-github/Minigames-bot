@@ -1,4 +1,4 @@
-# Games-Bot
+# Minigames bot
 Handler by Milrato Development,  Source code will be released soon!
 
 # Features 

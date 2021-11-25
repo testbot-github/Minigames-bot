@@ -21,19 +21,19 @@ module.exports = {
     argstoomany_message: "", //Message if the user has too many / not enough args / too many plus args, which will be sent, leave emtpy / dont add, if you wanna use command.usage or the default message! [OPTIONAL]  
     run: async (client, message, args, plusArgs, cmdUser, text, prefix) => {
     try{
-      message.reply({embeds: [new MessageEmbed()
+      message.channel.send({embed: new MessageEmbed()
         .setColor(ee.color)
         .setFooter(ee.footertext, ee.footericon)
-        .setTitle(`:white_check_mark: **${client.user.username}** is since:\n ${duration(client.uptime)} online`)]
+        .setTitle(`:white_check_mark: **${client.user.username}** is since:\n ${duration(client.uptime)} online`)
       });
     } catch (e) {
         console.log(String(e.stack).bgRed)
-        return message.reply({embeds: [new MessageEmbed()
+        return message.channel.send(new MessageEmbed()
             .setColor(ee.wrongcolor)
             .setFooter(ee.footertext, ee.footericon)
             .setTitle(`❌ ERROR | An error occurred`)
-            .setDescription(`\`\`\`${e.message ? String(e.message).substr(0, 2000) : String(e).substr(0, 2000)}\`\`\``)
-        ]});
+            .setDescription(`\`\`\`${e.stack}\`\`\``)
+        );
     }
   }
 }

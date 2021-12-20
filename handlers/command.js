@@ -19,7 +19,7 @@ module.exports = (client) => {
             if (pull.aliases && Array.isArray(pull.aliases)) pull.aliases.forEach((alias) => client.aliases.set(alias, pull.name));
         }
     });
-    console.log(table.toString().cyan);
+    console.log(table.toString().rainbow);
   }catch (e){
     console.log(String(e.stack).bgRed)
   }

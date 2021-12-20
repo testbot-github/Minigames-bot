@@ -1,6 +1,6 @@
 {
   "name": "Minigames-bot",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "Handler by https://discord.gg/fS6qBSm , Made by https://discord.io/botsuniversity",
   "main": "index.js",
   "scripts": {

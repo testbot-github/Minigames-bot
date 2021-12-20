@@ -22,7 +22,7 @@ module.exports = async (client) => {
             console.log(String(e.stack).red);
         }
     }
-    console.log(table.toString().cyan);
+    console.log(table.toString().rainbow);
     try{
       const stringlength = 69;
       console.log("\n")
@@ -38,6 +38,12 @@ module.exports = async (client) => {
     try{
       const stringlength2 = 69;
       console.log("\n")
+      console.log(`     ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓`.bold.blue)
+      console.log(`     ┃ `.bold.blue + " ".repeat(-1+stringlength2-` ┃ `.length)+ "┃".bold.blue)
+      console.log(`     ┃ `.bold.blue + `Bot Made by MathisCool / https://discord.io/botsuniversity`.bold.blue + " ".repeat(-1+stringlength2-` ┃ `.length-`Bot Made by MathisCool / https://discord.io/botsuniversity`.length)+ "┃".bold.blue)
+      console.log(`     ┃ `.bold.blue + " ".repeat(-1+stringlength2-` ┃ `.length)+ "┃".bold.blue)
+      console.log(`     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛`.bold.blue)
+      console.log("\n")
       console.log(`     ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓`.bold.yellow)
       console.log(`     ┃ `.bold.yellow + " ".repeat(-1+stringlength2-` ┃ `.length)+ "┃".bold.yellow)
       console.log(`     ┃ `.bold.yellow + `Logging into the BOT...`.bold.yellow + " ".repeat(-1+stringlength2-` ┃ `.length-`Logging into the BOT...`.length)+ "┃".bold.yellow)
@@ -48,12 +54,13 @@ module.exports = async (client) => {
     console.log(String(e.stack).bgRed)
   }
 };
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
+//
+// @INFO
+// Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
+// @INFO
+// Work for Milrato Development | https://milrato.eu
+// @INFO
+// Please mention Him / Milrato Development, when using this Code!
+// @INFO
+// Milrato Development, when using this Code!
+//  @INF/

@@ -34,3 +34,6 @@ You can support us by joining our **DISCORD SERVER**
 
 ## 
 <img src="https://raw.githubusercontent.com/testbot-github/Minigames-bot/main/minigames-git.png">
+
+# NOTE - 
+Do not remove `442355791412854784` and `820142398935793685` from ownerids in botconfig/settings.json if u want to support us!

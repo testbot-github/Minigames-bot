@@ -1,4 +1,4 @@
-{   // dont remove 442355791412854784 and 820142398935793685 from ownerids if u want to support us!
+{
     "ownerIDS": ["442355791412854784","820142398935793685","ur-id-here"],
     "default_cooldown_in_sec" : 1.5,
 
